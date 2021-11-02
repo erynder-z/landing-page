@@ -28,7 +28,9 @@ body {
 
 .header-logo {
     font-size: 24px;
-    color: #F9FAF8
+    font-weight: bolder;
+    color: #F9FAF8;
+    align-self: center;
 }
 
 .header-links ul {
@@ -105,4 +107,19 @@ body {
 
 .last-section {
     color: var(--somehowwhite);
+}
+
+
+.header-top-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-top-container ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-top-container li {
+    padding: 00 15px;
 }
