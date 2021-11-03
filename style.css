@@ -3,7 +3,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 :root {
@@ -43,6 +43,7 @@ body {
 .header-main-container {
     color: var(--somehowwhite);
 }
+
 .header-left-container button {
     background: var(--lightblue);
     color: var(--somehowwhite);
@@ -84,8 +85,8 @@ body {
 }
 
 .item-image {
-    height: 100px;
-    width: 100px;
+    height: 175px;
+    width: 175px;
     border: solid 5px var(--lightblue);
     border-radius: 10px;
 }
@@ -162,6 +163,31 @@ body {
 }
 
 .header-right-container {
-    align-self:center;
-   
+    align-self: center;
+
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 0;
+}
+
+.main-images-container {
+    display: flex;
+    width: min-content;
+    height: auto;
+    justify-content: center;
+}
+
+.item {
+    margin: 0 25px;
+
+}
+
+.item p {
+    text-align: center;
+    font-size: 18px;
+
 }
