@@ -179,8 +179,7 @@ body {
 }
 
 .item {
-    margin: 0 25px;
-   
+    margin: 0 25px;  
 }
 
 .item p {
@@ -198,4 +197,27 @@ body {
 
 .quote-container p {
     text-align: right;
+}
+
+.fourth-section {
+    padding: 5vh 15vw;
+}
+
+.signup-container {
+    display: flex;
+    padding: 5vh 5vw;
+    justify-content: space-between;
+}
+
+.signup-text > * {
+    margin: 0;
+    padding: 0;
+}
+
+.signup-container button {
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    margin: 10px 0 00;
+    align-self: center;
 }
