@@ -97,11 +97,10 @@ body {
 }
 
 
-.placeholder-image {
+.placeholder-image img {
     width: 500px;
-    height: 225px;
-    background: gray;
-    color: var(--somehowwhite);
+    height: auto;
+    border: solid 1px var(--somehowwhite);
 }
 
 .second-section {
@@ -137,6 +136,22 @@ body {
     width: 175px;
     border: solid 5px var(--lightblue);
     border-radius: 10px;
+}
+
+.item1 {
+    background: #DE92C2;
+}
+
+.item2 {
+    background: #7CA5DE;
+}
+
+.item3 {
+    background: #DEB566;
+}
+
+.item4 {
+    background: #7BDE71;
 }
 
 .third-section {
@@ -199,4 +214,63 @@ footer {
     height: 10vh;
     padding: 2vh 0;
     text-align: center;
+}
+
+
+
+@media (max-width: 60.00em) {
+
+    .first-section {
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+        padding: 15px 15px;
+    }
+
+    .header-main-container {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .header-links ul {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .header-top-container {
+        flex-direction: column;
+    }
+
+    .header-left-container {
+        max-width: fit-content;
+        margin: 20px 0;
+    }
+
+    .placeholder-image img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .second-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-images-container {
+        flex-direction: column;
+    }
+
+    .item-image {
+        margin: 0 auto;
+    }
+
+    .fourth-section {
+        padding: 0;
+    }
+
+    .signup-container button {
+        margin: 0 20px;
+        width: 120px;
+        height: 30px;
+    }
 }
