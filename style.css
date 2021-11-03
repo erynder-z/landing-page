@@ -221,3 +221,10 @@ body {
     margin: 10px 0 00;
     align-self: center;
 }
+
+footer {
+    background-color: var(--dark-background);
+    height: 10vh;
+    padding: 2vh 0;
+    text-align: center;
+}
