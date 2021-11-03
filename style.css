@@ -22,7 +22,6 @@ body {
     margin: 0;
 }
 
-/* fonts and colors */
 .first-section {
     background: var(--dark-background);
     padding: 0 15vw;
@@ -42,6 +41,34 @@ body {
 
 .header-main-container {
     color: var(--somehowwhite);
+    display: flex;
+    justify-content: space-between;
+    max-height: fit-content;
+    padding: 10vh 0;
+    align-items: stretch;
+}
+
+.header-top-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-container ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-top-container li {
+    padding: 0 15px;
+}
+
+.header-left-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: left;
+    max-width: 25vw;
+    align-self: center;
 }
 
 .header-left-container button {
@@ -65,6 +92,10 @@ body {
     margin: 0;
 }
 
+.header-right-container {
+    align-self: center;
+}
+
 
 .placeholder-image {
     width: 500px;
@@ -76,12 +107,29 @@ body {
 .second-section {
     background: var(--somehowwhite);
     color: var(--dark-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 15vw 10vh 15vw;
 }
 
 .second-section h1 {
     color: var(--dark-background);
     font-size: 36px;
     font-weight: bolder;
+}
+
+.main-images-container {
+    display: flex;
+}
+
+.item {
+    margin: 0 25px;
+}
+
+.item p {
+    text-align: center;
+    font-size: 18px;
 }
 
 .item-image {
@@ -93,6 +141,11 @@ body {
 
 .third-section {
     background: var(--gray-background);
+    padding: 0 15vw;
+}
+
+.quote-container {
+    padding: 15vh 0;
 }
 
 .quote-container em {
@@ -105,15 +158,25 @@ body {
     color: var(--dark-background);
     font-size: 24px;
     font-weight: bolder;
+    text-align: right;
 }
 
 .fourth-section {
     background: var(--somehowwhite);
+    padding: 5vh 15vw;
 }
 
 .signup-container {
     background: var(--lightblue);
     color: var(--somehowwhite);
+    display: flex;
+    padding: 5vh 5vw;
+    justify-content: space-between;
+}
+
+.signup-text>* {
+    margin: 0;
+    padding: 0;
 }
 
 .signup-container button {
@@ -121,105 +184,14 @@ body {
     color: var(--somehowwhite);
     border: solid 2px var(--somehowwhite);
     border-radius: 5px;
-}
-
-.last-section {
-    color: var(--somehowwhite);
-}
-
-
-
-/* layout */
-.header-top-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header-top-container ul {
-    display: flex;
-    list-style: none;
-}
-
-.header-top-container li {
-    padding: 0 15px;
-}
-
-.header-main-container {
-    color: var(--somehowwhite);
-    display: flex;
-    justify-content: space-between;
-    max-height: fit-content;
-    padding: 10vh 0;
-    align-items: stretch;
-}
-
-.header-left-container {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    justify-content: left;
-    max-width: 25vw;
-    align-self: center;
-}
-
-.header-right-container {
-    align-self: center;
-
-}
-
-.second-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5vh 15vw 10vh 15vw;
-}
-
-.main-images-container {
-    display: flex;
-}
-
-.item {
-    margin: 0 25px;  
-}
-
-.item p {
-    text-align: center;
-    font-size: 18px;
-}
-
-.third-section {
-    padding: 0 15vw;
-}
-
-.quote-container {
-    padding: 15vh 0;
-}
-
-.quote-container p {
-    text-align: right;
-}
-
-.fourth-section {
-    padding: 5vh 15vw;
-}
-
-.signup-container {
-    display: flex;
-    padding: 5vh 5vw;
-    justify-content: space-between;
-}
-
-.signup-text > * {
-    margin: 0;
-    padding: 0;
-}
-
-.signup-container button {
-    border-radius: 5px;
     width: 80px;
     height: 30px;
     margin: 10px 0 00;
     align-self: center;
+}
+
+.last-section {
+    color: var(--somehowwhite);
 }
 
 footer {
