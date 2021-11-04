@@ -74,10 +74,11 @@ body {
 .header-left-container button {
     background: var(--lightblue);
     color: var(--somehowwhite);
+    border: solid 2px var(--somehowwhite);
     border-radius: 5px;
     width: 80px;
     height: 30px;
-    margin: 10px 0 00;
+    margin: 10px 0 0 0;
 }
 
 .header-left-container h1 {
@@ -202,7 +203,7 @@ body {
     border-radius: 5px;
     width: 80px;
     height: 30px;
-    margin: 10px 0 00;
+    margin: 10px 0 0 0;
     align-self: center;
 }
 
